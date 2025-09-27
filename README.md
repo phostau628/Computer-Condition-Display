@@ -24,10 +24,14 @@ Computer-Condition-Display 是一个基于 ROS 2 的计算机状态监控与显�
 
 ## 安装步骤
 
-1. 克隆仓库到 ROS 2 工作空间的 `src` 目录下：
+1. 克隆仓库到 ROS 2 工作空间的 `src` 目录下，并把其中的功能包移动到自己的工作空间的src目录：
    ```bash
    cd <your_ros2_workspace>/src
    git clone https://github.com/phostau628/Computer-Condition-Display.git
+   #移动包
+   mv Computer_Condition_Display/src/* ./
+   # （可选）移动完成后可删除空的仓库目录（避免后续干扰）
+   rm -rf Computer_Condition_Display
    ```
 
 2. 安装依赖：
@@ -58,19 +62,12 @@ Computer-Condition-Display 是一个基于 ROS 2 的计算机状态监控与显�
    ros2 run demo_nodes_cpp talker
    ```
 
-2. 在新终端启动状态发布器：
+2.直接启动launch文件
    ```bash
-   source <your_ros2_workspace>/install/setup.bash
-   ros2 run status_publisher sys_status_pub
+   ros2 launch status_display ccd_launch.py
    ```
 
-3. 在另一个新终端启动状态显示器：
-   ```bash
-   source <your_ros2_workspace>/install/setup.bash
-   ros2 run status_display status_display
-   ```
-
-4. 此时将看到一个 Qt 窗口，实时显示计算机的系统状态信息。
+3. 此时将看到一个 Qt 窗口，实时显示计算机的系统状态信息。
 
 ## 项目结构
 ```
@@ -78,7 +75,7 @@ Computer-Condition-Display/
 ├── src/
 │   ├── status_display/        # 状态显示模块
 │   │   ├── src/
-│   │   │   └── status_display.cpp  # 显示界面及订阅逻辑实现
+│   │   │   └── status_display.cpp、ccd_launch # 显示界面及订阅逻辑实现
 │   │   ├── CMakeLists.txt     # 编译配置
 │   │   └── package.xml        # 包信息
 │   ├── status_interfaces/     # 消息接口模块
