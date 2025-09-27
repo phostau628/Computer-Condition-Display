@@ -1,6 +1,0 @@
-{
-  "package_name": "status_interfaces",
-  "non_idl_tuples": [
-    "/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_interfaces:msg/SystemStatus.msg"
-  ]
-}
