@@ -1,0 +1,286 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78245b11f040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78245b26ffa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78245b26ffa0>>, mixin_verb=('build',))
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/phostau/computer_condition_display'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_display) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'Computer_Condition_Display/src/status_display' with type 'ros.ament_cmake' and name 'status_display'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_interfaces) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'Computer_Condition_Display/src/status_interfaces' with type 'ros.ament_cmake' and name 'status_interfaces'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(Computer_Condition_Display/src/status_publisher) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'Computer_Condition_Display/src/status_publisher' with type 'ros.ament_python' and name 'status_publisher'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/phostau/ros2_ws/install
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.229s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'status_interfaces' is in: /home/phostau/ros2_ws/install/status_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding status_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'status_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phostau/computer_condition_display/build/status_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phostau/computer_condition_display/install/status_interfaces', 'merge_install': False, 'path': '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'status_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phostau/computer_condition_display/build/status_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phostau/computer_condition_display/install/status_display', 'merge_install': False, 'path': '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_display', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'status_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phostau/computer_condition_display/build/status_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phostau/computer_condition_display/install/status_publisher', 'merge_install': False, 'path': '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.230s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_interfaces' with build type 'ament_cmake'
+[0.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_interfaces'
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phostau/computer_condition_display/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/phostau/computer_condition_display/build/status_interfaces -- -j16 -l16
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phostau/computer_condition_display/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/phostau/computer_condition_display/build/status_interfaces -- -j16 -l16
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phostau/computer_condition_display/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/phostau/computer_condition_display/build/status_interfaces
+[0.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phostau/computer_condition_display/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/phostau/computer_condition_display/build/status_interfaces
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces' for CMake module files
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib'
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/bin'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib/python3.10/site-packages'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/bin'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.sh'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.bash'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.zsh'
+[0.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phostau/computer_condition_display/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[0.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces' for CMake module files
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces' for CMake config files
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib'
+[0.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/bin'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_interfaces/bin'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.sh'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.bash'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_interfaces/share/status_interfaces/package.zsh'
+[0.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phostau/computer_condition_display/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[0.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_display' with build type 'ament_cmake'
+[0.598s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_display'
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.601s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_publisher' with build type 'ament_python'
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'ament_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/ament_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/ament_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/ament_prefix_path.sh'
+[0.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phostau/computer_condition_display/build/status_display': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:/home/phostau/ros2_ws/install/wp_map_tools:/home/phostau/ros2_ws/install/vel_pkg:/home/phostau/ros2_ws/install/turtle_pkg:/home/phostau/ros2_ws/install/topic_pkg:/home/phostau/ros2_ws/install/status_display:/home/phostau/ros2_ws/install/status_interfaces:/home/phostau/ros2_ws/install/slam_pkg:/home/phostau/ros2_ws/install/patrol_controller:/home/phostau/ros2_ws/install/nav_pkg:/home/phostau/ros2_ws/install/my_pkg:/home/phostau/ros2_ws/install/lidar_pkg:/home/phostau/ros2_ws/install/lidar_behavior:/home/phostau/ros2_ws/install/imu_pkg:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/phostau/computer_condition_display/build/status_display -- -j16 -l16
+[0.778s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_publisher'
+[0.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phostau/computer_condition_display/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:/home/phostau/ros2_ws/install/wp_map_tools:/home/phostau/ros2_ws/install/vel_pkg:/home/phostau/ros2_ws/install/turtle_pkg:/home/phostau/ros2_ws/install/topic_pkg:/home/phostau/ros2_ws/install/status_display:/home/phostau/ros2_ws/install/status_interfaces:/home/phostau/ros2_ws/install/slam_pkg:/home/phostau/ros2_ws/install/patrol_controller:/home/phostau/ros2_ws/install/nav_pkg:/home/phostau/ros2_ws/install/my_pkg:/home/phostau/ros2_ws/install/lidar_pkg:/home/phostau/ros2_ws/install/lidar_behavior:/home/phostau/ros2_ws/install/imu_pkg:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/phostau/computer_condition_display/build/status_display -- -j16 -l16
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phostau/computer_condition_display/build/status_display': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:/home/phostau/ros2_ws/install/wp_map_tools:/home/phostau/ros2_ws/install/vel_pkg:/home/phostau/ros2_ws/install/turtle_pkg:/home/phostau/ros2_ws/install/topic_pkg:/home/phostau/ros2_ws/install/status_display:/home/phostau/ros2_ws/install/status_interfaces:/home/phostau/ros2_ws/install/slam_pkg:/home/phostau/ros2_ws/install/patrol_controller:/home/phostau/ros2_ws/install/nav_pkg:/home/phostau/ros2_ws/install/my_pkg:/home/phostau/ros2_ws/install/lidar_pkg:/home/phostau/ros2_ws/install/lidar_behavior:/home/phostau/ros2_ws/install/imu_pkg:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/phostau/computer_condition_display/build/status_display
+[0.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display' for CMake module files
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phostau/computer_condition_display/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:/home/phostau/ros2_ws/install/wp_map_tools:/home/phostau/ros2_ws/install/vel_pkg:/home/phostau/ros2_ws/install/turtle_pkg:/home/phostau/ros2_ws/install/topic_pkg:/home/phostau/ros2_ws/install/status_display:/home/phostau/ros2_ws/install/status_interfaces:/home/phostau/ros2_ws/install/slam_pkg:/home/phostau/ros2_ws/install/patrol_controller:/home/phostau/ros2_ws/install/nav_pkg:/home/phostau/ros2_ws/install/my_pkg:/home/phostau/ros2_ws/install/lidar_pkg:/home/phostau/ros2_ws/install/lidar_behavior:/home/phostau/ros2_ws/install/imu_pkg:/home/phostau/ros2_ws/install/wpr_simulation2:/home/phostau/ros2_ws/install/status_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/phostau/computer_condition_display/build/status_display
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display' for CMake config files
+[0.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/bin'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib/pkgconfig/status_display.pc'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib/python3.10/site-packages'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/bin'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.bash'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phostau/computer_condition_display/install/status_display/share/colcon-core/packages/status_display)
+[0.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display' for CMake module files
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display' for CMake config files
+[0.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/bin'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib/pkgconfig/status_display.pc'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/lib/python3.10/site-packages'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_display/bin'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.dsv'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.bash'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_display/share/status_display/package.zsh'
+[0.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phostau/computer_condition_display/install/status_display/share/colcon-core/packages/status_display)
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_publisher': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phostau/computer_condition_display/install/status_publisher/lib/python3.10/site-packages:/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/phostau/computer_condition_display/build/status_publisher/build install --record /home/phostau/computer_condition_display/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher' for CMake module files
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phostau/computer_condition_display/Computer_Condition_Display/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phostau/computer_condition_display/install/status_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/phostau/computer_condition_display/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phostau/computer_condition_display/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phostau/computer_condition_display/install/status_publisher/lib/python3.10/site-packages:/home/phostau/computer_condition_display/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/phostau/computer_condition_display/build/status_publisher/build install --record /home/phostau/computer_condition_display/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher' for CMake config files
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher/lib'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher/bin'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher/lib/pkgconfig/status_publisher.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher/lib/python3.10/site-packages'
+[1.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'pythonpath')
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/pythonpath.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/pythonpath.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/hook/pythonpath.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/phostau/computer_condition_display/install/status_publisher/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_publisher)
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/package.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/phostau/computer_condition_display/install/status_publisher/share/status_publisher/package.zsh'
+[1.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phostau/computer_condition_display/install/status_publisher/share/colcon-core/packages/status_publisher)
+[1.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.239s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.251s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phostau/computer_condition_display/install/local_setup.ps1'
+[1.252s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phostau/computer_condition_display/install/_local_setup_util_ps1.py'
+[1.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phostau/computer_condition_display/install/setup.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phostau/computer_condition_display/install/local_setup.sh'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phostau/computer_condition_display/install/_local_setup_util_sh.py'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phostau/computer_condition_display/install/setup.sh'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phostau/computer_condition_display/install/local_setup.bash'
+[1.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phostau/computer_condition_display/install/setup.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phostau/computer_condition_display/install/local_setup.zsh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phostau/computer_condition_display/install/setup.zsh'
